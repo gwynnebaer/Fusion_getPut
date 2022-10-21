@@ -519,7 +519,7 @@ try:
         if args.zip is not None:
             sprint("Getting export zip from file '" + args.zip + "'.")
         else:
-            sprint("Geting export zip for app '" + args.app + "' from server '" + args.server + "'.")
+            sprint("Getting export zip for app '" + args.app + "' from server '" + args.server + "'.")
         extractProject()
 
         gatherQueryRewrite()
